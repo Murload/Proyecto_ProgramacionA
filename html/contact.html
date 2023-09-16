@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockey sobre hielo</title>
+    <link rel="stylesheet" href="../css/stylescontact.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contacto</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a class="navlist" href="rules.html">Reglas</a></li>
+        <li><a class="navlist" href="sport.html">Deporte</a></li>
+      </ul>
+    </nav>
+    <!--Soy un comentarios-->
+    <form action="" method="post">
+      <h3>Llena nuestro formulario</h3>
+      <label for="">Nombre *</label>
+      <input type="text" required="required" /> <br><br>
+
+      <label for="">Apellido *</label>
+      <input type="text" required="required" /> <br><br>
+
+      <label for="email">Email *</label>
+      <input type="email" name="email" id="email" required="required" /><br><br>
+
+      <label for="tel">Télefono de contacto *</label>
+      <input type="tel" name="tel" id="tel" required="required" /><br /><br>
+
+      <label for="experiencia">¿Tiene experiencia previa en el deporte? *</label
+      ><br />
+      <input type="radio" name="experiencia" id="" /> Sí<br />
+      <input type="radio" name="experiencia" id="" /> No<br />
+      <br>
+      <hr> 
+      <label for="imagen"> ¡Te queremos ver, carga una foto tuya!</label><br />
+      <input type="file" name="imagen" id="imagen" accept="image/jpeg" /> <br />
+        <br>
+      <label for="">Habilidades que consideras tener *</label>
+      <input type="checkbox" name="velocidad" id="velocidad" /> <label for="velocidad">Velocidad</label>  
+      <input type="checkbox" name="agilidad" id="agilidad" /> Agilidad<br />
+      <input type="checkbox" name="manejo" id="manejo" /> Manejo de patin de
+      hielo<br />
+      <input type="checkbox" name="respeto" id="respeto" /> Respeto<br />
+      <input type="checkbox" name="compañerismo" id="compañerismo" />
+      Compañerismo<br />
+        <br>
+        <br>
+        <hr>
+      <label for="date">Dia de inicio de practicas *</label>
+      <input type="date" name="date" id="date" required="required" /><br /><br>
+      <h3>Nuestros tutores</h3>
+      <table border="1px">
+        <tr>
+          <th>Nombre de tutores</th>
+          <th>Dias</th>
+          <th>Horarios</th>
+        </tr>
+        <tr>
+          <td>Andrea Martinez</td>
+          <td>Lunes, Martes, Miercoles</td>
+          <td>9:00 am - 7:00 pm</td>
+        </tr>
+        <tr>
+          <td>Juliana Fernandez</td>
+          <td>Jueves, Viernes, Sábado</td>
+          <td>9:00 am - 2:00 pm</td>
+        </tr>
+        <tr>
+          <td>Natalia Gonzales</td>
+          <td>Sabado, Domingo</td>
+          <td>2:00 pm - 8:00 pm</td>
+        </tr>
+      </table>
+      <br>
+      <button id="buttonsend">Enviar</button><br />
+    </form>
+    <footer>Hecho por : Adrian Leonardo Murcia Lopez</footer>
+  </body>
+</html>

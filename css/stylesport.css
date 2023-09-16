@@ -1,0 +1,85 @@
+body{
+    background-color: #E9F6E7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: rgb(0, 90, 255, 0.8);
+    border-style: dotted;
+    border-color: #8BE39A;
+    margin-bottom: 1%;
+
+}
+nav {
+    background-color: rgb(0, 213, 83, 0.8);
+    border-color: rgb(0, 213, 83, 0.8);
+    border-style: solid;
+    text-align: center;
+    border-width: 3%;
+
+
+}
+.navlist{
+    text-decoration: none;
+    font-size: 100%   ;
+    color: rgb(187, 92, 92);
+    
+}
+li{
+    display: inline-block; 
+    margin-right:10%;
+    margin-left:10%;
+
+}
+.navlist:hover{
+    display: inline-block;
+    font-size: 150%; 
+    margin-right:10%;
+    margin-left:10%;
+
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.mainsport{
+    background-color: aliceblue;
+    border-radius: 10   px;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    box-shadow: -5px -5px 15px 5px rgba(0, 90, 255, 0.8), 5px 5px 15px 7px rgba(0, 213, 83, 0.8);
+}
+p{
+    padding: 5%;
+
+
+}
+
+.imghookey{
+    display: block;
+    align-content: center;
+    border-radius: 10px;
+    margin : auto;
+    margin-bottom: 3%;
+
+}
+
+
+footer{
+    margin: 2%, 5%;
+    padding: 3%;
+    background-color: #97F0B3;
+    text-align: center;
+    border-style: dotted;
+    border-color: #8BE39A;
+    margin-bottom: 1%;
+
+}
